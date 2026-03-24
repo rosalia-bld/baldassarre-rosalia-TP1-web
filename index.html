@@ -1,0 +1,401 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <title>LumUr - Lumière Urbaine</title>
+
+    <!-- -->
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Monoton&display=swap");
+    </style>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+    </style>
+  </head>
+
+  <body>
+    <!-- section 1 (NAV + HERO) -->
+
+    <header class="header">
+      <!-- NAV -->
+      <nav class="nav">
+        <!-- logo de la nav -->
+        <div class="nav__logo">
+          <img src="./images/logo.png" />
+          <img src="./images/site-title.png" />
+        </div>
+
+        <!-- menu -->
+        <ul class="nav__menu">
+          <li class="nav__item">Programmation</li>
+          <li class="nav__item">Horaire</li>
+          <li class="nav__item">Artistes</li>
+          <li class="nav__item">Billets</li>
+          <li class="nav__item">Partenaires</li>
+          <li class="nav__item">Contact</li>
+        </ul>
+
+        <!-- bouton jaune de la nav-->
+        <button class="nav__btn">Obtenir vos billets</button>
+      </nav>
+      </header>
+      <!-- FIN NAV  -->
+
+      <!-- HERO -->
+      <section class="hero">
+        <div class="hero__container">
+          <h1 class="hero__title">LUMIÈRE.URBAINE</h1>
+
+          <p class="hero__subtitle">3 jours de musique et d'art immersif.</p>
+
+          <div class="hero__btn">
+            <!-- bouton noir transparent -->
+            <button class="hero__btn1">En savoir plus</button>
+            <!-- bouton bleu -->
+            <button class="hero__btn2">Acheter des billets</button>
+          </div>
+        </div>
+      </section>
+    
+    <!-- FIN HERO -->
+    <!-- FIN SECTION NAV + HERO -->
+
+
+
+    <!-- section 2 PROGRAMMATION -->
+    <section class="programmation">
+      <h2>Programmation</h2>
+
+      <div class="programmation__cards">
+        <div class="programmation__card">
+            <div class="programmation__container_img">
+          <div class="programmation__card_img">
+            <!--icones jaunes sur les images-->
+            <div class="programmation__tag">
+              <p class="programmation__tag_jour">Jour 1</p>
+            </div>
+            <p class="programmation__card_text">Vendredi Festival</p>
+            
+
+            </div>
+          </div>
+          <div class="programmation__card__description">
+            <h3 class="programmation__jour">Vendredi</h3>
+            <p class="programmation__description">
+              Liste des performances du vendredi
+            </p>
+          </div>
+        </div>
+
+        <div class="programmation__card">
+            <div class="programmation__container_img">
+          <div class="programmation__card_img">
+             <!--icones jaunes sur les images-->
+             <div class="programmation__tag">
+              <p class="programmation__tag_jour">Jour 2</p>
+            </div>
+            <p class="programmation__card_text">Samedi Festival</p>
+           
+            </div>
+          </div>
+          <div class="programmation__card__description">
+            <h3 class="programmation__jour">Samedi</h3>
+            <p class="programmation__description">
+              Liste des performances du samedi
+            </p>
+          </div>
+        </div>
+
+        <div class="programmation__card">
+            <div class="programmation__container_img">
+          <div class="programmation__card_img">
+             <!--icones jaunes sur les images-->
+             <div class="programmation__tag">
+              <p class="programmation__tag_jour">Jour 3</p>
+            </div>
+            <p class="programmation__card_text">Dimanche Festival</p>
+           
+            </div>
+          </div>
+          <div class="programmation__card__description">
+            <h3 class="programmation__jour">Dimanche</h3>
+            <p class="programmation__description">
+              Liste des performances du dimanche
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- FIN PROGRAMMATION -->
+
+
+
+
+    <!--  section 3 HORAIRE -->
+
+    <section class="horaire">
+      <div class="horaire__container_title">
+        
+          <h2>Horaire</h2>
+          <p class="horaire__subtitle">
+            Consultez notre horaire des performances.
+          </p>
+        
+      </div>
+      <div class="horaire__cards">
+        <div class="horaire__card">
+          <div class="horaire__container_img">
+          <img src="./images/calendrier.png" class="horaire__calendrier">
+           <img src="./images/v.png" class="horaire__lettre">
+           </div>
+          <div class="horaire__card_text">
+            <h4 class="horaire__jour">Vendredi</h4>
+            <p class="horaire__description">Performances de 15h à 23h</p>
+          </div>
+        </div>
+
+        <div class="horaire__card">
+          <div class="horaire__container_img">
+          <img src="./images/calendrier.png" class="horaire__calendrier">
+          <img src="./images/s.png" class="horaire__lettre">
+           </div>
+          <div class="horaire__card_text">
+            <h4 class="horaire__jour">Samedi</h4>
+            <p class="horaire__description">Performances de 12h à 22h</p>
+          </div>
+        </div>
+
+        <div class="horaire__card">
+          <div class="horaire__container_img">
+          <img src="./images/calendrier.png" class="horaire__calendrier">
+          <img src="./images/d.png" class="horaire__lettre">
+          </div>
+          <div class="horaire__card_text">
+            <h4 class="horaire__jour">Dimanche</h4>
+            <p class="horaire__description">Performances de 14h à 21h</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--   FIN HORAIRE -->
+
+
+
+    <!-- section 4 ARTISTES -->
+
+    <section class="artiste">
+      <h2>Artistes</h2>
+
+      <div class="artiste__cards">
+        <div class="artiste__card_bob">
+            <div class="artiste__container_img">
+          <div class="artiste__card_img">
+            <div class="artiste__card_badge">
+              <p class="artiste__vedette">En vedette</p>
+            </div>
+            <h3 class="artiste__img_info">Artiste 1</p>
+          </div>
+          </div>
+          <div class="artiste__card_text">
+            <h3 class="artiste__name">
+              Bob l'artiste favori des médias numériques
+            </h3>
+            <p class="artiste__genre">Genre : Pop</p>
+          </div>
+        </div>
+
+        <div class="artiste__card">
+            <div class="artiste__container_img">
+          <div class="artiste__card_img">
+            <h3 class="artiste__img_info">Artiste 2</p>
+          </div>
+          </div>
+          <div class="artiste__card_text">
+            <h3 class="artiste__name">
+              George l'artiste émergeant très prometteur
+            </h3>
+            <p class="artiste__genre">Genre : Rock</p>
+          </div>
+        </div>
+
+        <div class="artiste__card">
+            <div class="artiste__container_img">
+          <div class="artiste__card_img">
+            <h3 class="artiste__img_info">Artiste 3</p>
+          </div>
+          </div>
+          <div class="artiste__card_text">
+            <h3 class="artiste__name">Mélo Super Nova</h3>
+            <p class="artiste__genre">Genre : Jazz</p>
+          </div>
+        </div>
+
+        <div class="artiste__card">
+            <div class="artiste__container_img">
+          <div class="artiste__card_img">
+            <h3 class="artiste__img_info">Artiste 4</p>
+          </div>
+          </div>
+          <div class="artiste__card_text">
+            <h3 class="artiste__name">Marie la Kid Synthétique</h3>
+            <p class="artiste__genre">Genre : Électro</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- FIN ARTISTE-->
+
+
+
+    <!-- section 5 BILLETS -->
+
+    <section class="billet">
+      <h2>Billets</h2>
+      <div class="billet__container">
+        <div class="billet__card">
+          <img src="./images/billet1.png" class="billet__icone" />
+          <h3 class="billet__type">Standard</h3>
+          <p class="billet__prix">$50</p>
+        </div>
+
+        <div class="billet__card">
+          <img src="./images/billet2.png" class="billet__icone" />
+          <h3 class="billet__type">VIP</h3>
+          <p class="billet__prix">$100</p>
+        </div>
+
+        <div class="billet__card">
+          <img src="./images/billet3.png" class="billet__icone" />
+          <h3 class="billet__type">Passeport 3 jours</h3>
+          <p class="billet__prix">$120</p>
+        </div>
+      </div>
+    </section>
+    <!-- FIN BILLETS -->
+
+
+
+
+    <!-- section 6 PARTENAIRES -->
+    <section class="partenaires">
+      <div class="partenaires__container_title">
+        <h2>Partenaires</h2>
+        <p class="partenaires__subtitle">Nos précieux partenaires</p>
+      </div>
+      <div class="partenaires__container_item">
+        <div class="partenaires__item">
+          <img src="./images/partenaire1.png" class="partenaires__icone" />
+          <h3 class="partenaires__item_text">Partenaire inc.</h3>
+        </div>
+        <div class="partenaires__item">
+          <img src="./images/partenaire2.png" class="partenaires__icone" />
+          <h3 class="partenaires__item_text">Précieux et investit</h3>
+        </div>
+        <div class="partenaires__item">
+          <img src="./images/partenaire3.png" class="partenaires__icone" />
+          <h3 class="partenaires__item_text">Une compagnie qui investit</h3>
+        </div>
+        <div class="partenaires__item">
+          <img src="./images/partenaire4.png" class="partenaires__icone" />
+          <h3 class="partenaires__item_text">Super partenaire</h3>
+        </div>
+      </div>
+    </section>
+    <!-- FIN PARTENAIRES -->
+
+
+
+
+    <!-- section 7 TÉMOIGNAGES -->
+
+    <section class="temoignages">
+      <div class="temoignages__container_title">
+        <h2>Témoignages</h2>
+        <p class="temoignages__subtitle">Écoutez ce que les gens disent!</p>
+      </div>
+      <div class="temoignages__container">
+        <div class="temoignages__card">
+          <img src="./images/person.png" class="temoignages__icone" />
+          <div class="temoignages__card_text">
+            <h3 class="temoignages__name">Anne</h3>
+            <p class="temoignages__description">
+              Un festival incroyable avec une ambiance électrisante!
+            </p>
+          </div>
+        </div>
+
+        <div class="temoignages__card">
+          <img src="./images/person.png" class="temoignages__icone" />
+          <div class="temoignages__card_text">
+            <h3 class="temoignages__name">Marco</h3>
+            <p class="temoignages__description">
+              Des artistes de haut niveau et une organisation parfaite.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- FIN TÉMOIGNAGES -->
+
+
+
+
+    <!-- section 8 CONTACT -->
+
+    <section class="contact">
+      <div class="contact__container_title">
+        <h2>Contact</h2>
+        <p class="contact__subtitle">Nous aimerions avoir de vos nouvelles!</p>
+      </div>
+      <div class="contact__container_form">
+        <form class="contact__form">
+          <ul class="contact__list">
+            <li class="contact__item">
+              <label for="nom">Nom</label>
+              <input type="text" id="nom" placeholder="Entrez votre nom" class="" required/>
+            </li>
+            <li class="contact__item">
+              <label for="email">Email</label>
+              <input type="email" id="email" placeholder="Entrez votre email" required/>
+            </li>
+            <li class="contact__item">
+              <label for="message">Message</label>
+              <input type="text" id="message" placeholder="Écrivez votre message ici" required/>
+            </li>
+          </ul>
+ 
+
+          <div class="contact__btn">
+            <button class="contact__btn1">Annuler</button>
+            <button class="contact__btn2">Envoyer</button>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <!-- FIN CONTACT -->
+
+
+
+
+    <!-- section 9 FOOTER -->
+
+    <footer class="footer">
+      
+      <button class="footer__btn">Obtenez vos billets</button>
+      <div class="footer__politique">
+        <p>Politique de confidentialité</p>
+      </div>
+      <div class="footer__conditions">
+        <p>Conditions d'utilisation</p>
+      </div>
+      <div class="footer__tag">
+        <p>© 2025 Festival Lumière Urbaine</p>
+      </div>
+    </footer>
+
+    <!-- FIN FOOTER -->
+
+  </body>
+</html>
